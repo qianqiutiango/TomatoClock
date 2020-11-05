@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="30sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/White"
+        android:background="@drawable/list_shape_top"
+        android:textSize="20sp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/itemMid"
+        android:layout_width="fill_parent"
+        android:layout_height="30sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/bgBlue"
+        android:paddingRight="20dp"
+        android:gravity="end"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:text="开始" />
+
+
+    <TextView
+        android:id="@+id/itemDetail"
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/list_shape_bottom"
+        android:text="TextView"
+        android:textColor="@color/White"
+        android:textSize="15sp" />
+
+
+
+
+</LinearLayout>
